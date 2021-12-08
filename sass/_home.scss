@@ -1,0 +1,116 @@
+body {
+  background-color: white;
+}
+
+#home_banner {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("/images/home_banner.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 315px;
+}
+
+.author {
+  text-align: center; 
+  text-transform: uppercase; 
+  padding: 20px 0px;
+  img {
+    max-width: 100px;
+  }
+  h1 {
+    color: #54595F;
+    font-family: "FuturaLTPro-Book", Sans-serif;
+    font-size: 0.7em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+}
+
+#container {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  a {
+    text-decoration: none;
+  }
+}
+
+.card {
+  box-sizing: border-box;
+  height: 394px;
+  margin: 10px 20px;
+  min-width: 300px;
+}
+
+.card-image {
+  background-size: cover;
+}
+
+.card-title {
+  background-color: #e1e1eb;
+  position: relative;
+  .section-top {
+    height: 30%;
+  }
+  .section-bottom {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+  }
+  .title {
+    color: #54595f;
+    font-family: "FuturaLTPro-Book", Sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    letter-spacing: 0.8px;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: 5px;
+  }
+  .subtitle {
+    color: #54595f;
+    font-family: "FuturaStd-Light", Sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+  }
+  .description {
+    color: #54595f;
+    font-family: "FuturaStd-Light", Sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+  }
+}
+
+footer {
+  padding: 20px;
+  p {
+    color: #7a7a7a;
+    font-family: "FuturaStd-Light", Sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .row {
+    flex-direction: row;
+  }
+}

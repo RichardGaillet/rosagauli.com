@@ -1,0 +1,108 @@
+header {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.71);
+  display: flex;
+  padding: 7px 20px 5px;
+  position: fixed;
+  width: 100%;
+  nav {
+    align-items: center;
+    display: flex;
+    width: 50%;
+  }
+  ul {
+    display: none;
+  }
+}
+
+#logo_rosa_gauli {
+  width: 72px;
+  height: auto;
+}
+
+#nav_right {
+  justify-content: end;
+  padding-right: 50px;
+}
+
+#hamburger_menu {
+  color: #54595f;
+  font-size: 1.3em;
+}
+
+#sidenav {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: 0.5s;
+  opacity: 0;
+  z-index: -1;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    padding-bottom: 25px;
+    a {
+      color: #54595f;
+      display: block;
+      font-family: "FuturaLTPro-Book", sans-serif;
+      font-size: 1.5em;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: 0.3s;
+    }
+  }
+  .closebtn {
+    color: #54595f;
+    font-size: 2.2em;
+    margin-left: 50px;
+    text-decoration: none;
+    position: absolute;
+    top: 13px;
+    right: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  header {
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      padding: 0 20px;
+      a {
+        color: #54595f;
+        font-family: "FuturaLTPro-Book", sans-serif;
+        font-size: 0.9em;
+        font-weight: 500;
+        margin: 0 5px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.4s;
+        &:hover {
+          color: #7a7a7a;
+        }
+      }
+    }
+    i.fa-instagram {
+      color: #54595f;
+      font-size: 27px;
+      margin-top: -5px;
+    }
+  }
+  #sidenav, #hamburger_menu {
+    display: none;
+  }
+}
