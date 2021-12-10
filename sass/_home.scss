@@ -59,6 +59,7 @@ body {
   background-color: #e1e1eb;
   position: relative;
   .section-top {
+    background-size: cover;
     height: 30%;
   }
   .section-bottom {
@@ -115,4 +116,47 @@ footer {
   .row {
     flex-direction: row;
   }
+}
+
+.home-internal-title {
+  text-align: center;
+  color: #54595f;
+  font-size: 1.4em;
+  padding: 20px;
+  text-transform: uppercase;
+  min-height: 315px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h2 {
+    margin: 0;
+    font-family: "FuturaLTPro-Book", Sans-serif;
+    font-weight: 300;
+  }
+  h3 {
+    margin: 0;
+    font-family: "FuturaStd-Light", Sans-serif;
+    font-weight: 100;
+  }
+}
+
+.home-internal-description {
+  padding: 20px;
+  p {
+    font-family: "FuturaLTPro-Book", sans-serif;
+    font-size: 1em;
+    line-height: 1.7em;
+    text-align: center;
+    color: #54595f;
+  }
+}
+
+.home-internal-photo {
+  margin: 20px;
+  height: 394px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
