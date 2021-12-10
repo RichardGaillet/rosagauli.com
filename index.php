@@ -1,32 +1,59 @@
-<?php include 'includes/header.php'; ?>
+<?php 
+  require 'vendor/autoload.php';
+  include 'includes/header.php'; 
+?>
 
 <div id="home_banner"></div>
 
 <div class="author">
-  <img src="images/logos3.png" alt="Logo Rosa Gaulí">
-  <h1>Textile Graphic Designer</h1>
+    <img src="images/logos3.png" alt="Logo Rosa Gaulí">
+    <h1>Textile Graphic Designer</h1>
 </div>
 
-<div id="container"></div>
+<?php
+  $loader = new \Twig\Loader\FilesystemLoader(__DIR__ . '/templates');
+  $twig = new \Twig\Environment($loader, [
+    'cache' => __DIR__ . '/tmp',
+    // 'cache' => false,
+  ]);
 
-<script id="cards-template" type="text/x-handlebars-template">
-  {{#each cards}}
-  <div class="row" id="{{id}}">
-      <a href="pages/home-{{id}}.php">
-        <div class="card card-image" style="background-image: url({{slides.[0]}});">
-        </div>
-        <div class="card card-title">
-          <section class="section-top" style="background-image: url({{bannerImg}}); background-size: cover;"></section>
-          <section class="section-bottom">
-            <h3 class="subtitle">{{subTitle1}}</h3>
-            <h2 class="title">{{title}}</h2>
-            <h3 class="subtitle">{{subTitle2}}</h3>
-            <p class="description">{{description}}</p>
-          </section>
-        </div>
-      </a>
-    </div>
-  {{/each}}
-</script>
+  echo $twig->render('cards.twig', ['cards' => array(
+    array(
+      "id" => "amazonas",
+      "title" => "Amazonas",
+      "subTitle1" => "NIÑOS Perú",
+      "subTitle2" => "Barcelona",
+      "description" => "Tatuajes libres y fluidos",
+      "bannerImg" => "images/home3.png",
+      "slides" => array("images/home2.png", "images/amazonas4_slide.jpg")
+    ),
+    array(
+      "id" => "flowers",
+      "title" => "Flowers",
+      "subTitle1" => "PERÚ",
+      "subTitle2" => "Y del mundo",
+      "description" => "Inspiración flores textiles y años 50s",
+      "bannerImg" => "images/home4.jpg",
+      "slides" => array("images/home5.png", "images/flowers7_slide.jpg")
+    ),
+    array(
+      "id" => "tejidos",
+      "title" => "Tejidos",
+      "subTitle1" => "Juego de",
+      "subTitle2" => "Y color",
+      "description" => "Pata de gallo fusión escosés",
+      "bannerImg" => "images/home7.png",
+      "slides" => array("images/home6.jpg", "images/color3_slide.jpg")
+    ),
+    array(
+      "id" => "naturaleza",
+      "title" => "Naturaleza",
+      "subTitle1" => "Bondadosa",
+      "subTitle2" => "Cuarentena",
+      "description" => "Las ventanas se convirtieron en obras de arte",
+      "bannerImg" => "images/home8.png",
+      "slides" => array("images/home9.jpg", "images/naturaleza5_slide.jpg")
+    ))]);
+?>
 
 <?php include 'includes/footer.php'; ?>

@@ -1,0 +1,12 @@
+{
+    "name": "seb/rosagauli.com",
+    "authors": [
+        {
+            "name": "Séb Duval",
+            "email": "sebastienduvalbcn@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}

@@ -1,0 +1,17 @@
+{% for card in cards %}
+<div class="row" id={{card.id}}>
+    <a href="pages/home-{{card.id}}.php">
+        <div class="card card-image" style="background-image: url({{card.slides[0]}});"></div>
+        <div class="card card-title">
+            <section class="section-top" style="background-image: url({{card.bannerImg}}); background-size: cover;">
+            </section>
+            <section class="section-bottom">
+                <h3 class="subtitle">{{card.subTitle1}}</h3>
+                <h2 class="title">{{card.title}}</h2>
+                <h3 class="subtitle">{{card.subTitle2}}</h3>
+                <p class="description">{{card.description}}</p>
+            </section>
+        </div>
+    </a>
+</div>
+{% endfor %}

@@ -8,3 +8,6 @@ style.css
 
 #Unused Images
 images/archives
+
+/vendor/
+/tmp/
