@@ -7,27 +7,27 @@ body {
       rgba(255, 255, 255, 0.2),
       rgba(255, 255, 255, 0.2)
     ),
-    url("/images/home_banner.png");
+    url("/images/home1_landscape.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 315px;
+  height: 100vh;
 }
 
 .author {
+  padding: 20px 0px 50px 0px;
   text-align: center;
-  text-transform: uppercase;
-  padding: 20px 0px;
   img {
-    max-width: 100px;
+    width: 170px;
   }
   h1 {
     color: #54595f;
     font-family: "FuturaLTPro-Book", Sans-serif;
-    font-size: 0.7em;
+    font-size: 1em;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+    margin: 0;
   }
 }
 
@@ -37,7 +37,7 @@ body {
 
 .row {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   width: 100%;
   a {
     text-decoration: none;
@@ -45,24 +45,22 @@ body {
 }
 
 .card {
+  background-color: #e1e1eb;
   box-sizing: border-box;
   height: 394px;
-  margin: 10px 20px;
-  min-width: 300px;
-}
-
-.card-image {
-  background-size: cover;
-}
-
-.card-title {
-  background-color: #e1e1eb;
+  margin: 5px;
+  min-width: 600px;
+  height: 658px;
   position: relative;
-  .section-top {
+  .card-img-full {
+    background-size: cover;
+    height: 100%;
+  }
+  .card-img-top {
     background-size: cover;
     height: 30%;
   }
-  .section-bottom {
+  .card-content {
     align-items: center;
     box-sizing: border-box;
     display: flex;
@@ -70,28 +68,29 @@ body {
     justify-content: center;
     height: 70%;
   }
-  .title {
+  .card-title {
     color: #54595f;
     font-family: "FuturaLTPro-Book", Sans-serif;
-    font-size: 2.5em;
+    font-size: 3.5em;
     font-weight: normal;
     letter-spacing: 0.8px;
     line-height: 1em;
     text-transform: uppercase;
-    margin: 5px;
+    margin: 34px 0;
   }
-  .subtitle {
+  .card-subtitle {
     color: #54595f;
     font-family: "FuturaStd-Light", Sans-serif;
-    font-size: 1em;
+    font-size: 1.4em;
     font-weight: 300;
     letter-spacing: 4.5px;
     text-transform: uppercase;
+    margin: 0;
   }
-  .description {
+  .card-text {
     color: #54595f;
     font-family: "FuturaStd-Light", Sans-serif;
-    font-size: 0.8em;
+    font-size: 1.2em;
     font-weight: 300;
     position: absolute;
     bottom: 10px;
@@ -109,12 +108,6 @@ footer {
     font-size: 13px;
     font-weight: 300;
     text-align: center;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .row {
-    flex-direction: row;
   }
 }
 
