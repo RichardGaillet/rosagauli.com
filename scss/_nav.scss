@@ -1,9 +1,10 @@
 header {
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.71);
+  // background-color: rgba(255, 255, 255, 0.71);
+  background-color: #f5e3ef;
   display: flex;
   padding: 7px 20px 5px;
-  position: fixed;
+  // position: fixed;
   width: 100%;
   nav {
     align-items: center;
@@ -102,7 +103,8 @@ header {
       margin-top: -5px;
     }
   }
-  #sidenav, #hamburger_menu {
+  #sidenav,
+  #hamburger_menu {
     display: none;
   }
 }
