@@ -15,27 +15,31 @@
                 Cosmovisión Andina.</p>
         </div>
 
-        <div style="background-image: url(../images/amazonas1_bis.jpg);" id="amazonas1_bis">
-            <img src="../images/amazonas2.jpg" alt="amazonas2"
-                style="max-width: 625px; min-height: 745px; -webkit-transform: scaleX(-1); transform: scaleX(-1);">
+        <div class=row>
+            <div style="background-image: url(../images/amazonas1_bis.jpg);" id="amazonas1_bis">
+                <img src="../images/amazonas2.jpg" alt="amazonas2"
+                    style="max-width: 625px; min-height: 745px; -webkit-transform: scaleX(-1); transform: scaleX(-1);">
+            </div>
         </div>
 
         <div class=row>
             <div style="background-image: url(../images/amazonas3.png);" class="card"></div>
-            <div style="background-image: url(../images/amazonas6.jpg);" class="card"></div>
+            <div style="background-image: url(../images/amazonas6.jpg);" id="amazonas6" class="card"></div>
         </div>
 
         <div class=row>
             <div style="background-image: url(../images/amazonas9.jpg);" class="card"></div>
-            <div style="background-image: url(../images/amazonas4.jpg);" class="card"></div>
+            <div style="background-image: url(../images/amazonas4.jpg);" id="amazonas4" class="card"></div>
         </div>
 
         <div class=row>
-            <div style="background-image: url(../images/amazonas8.jpg);"></div>
+            <div style="background-image: url(../images/amazonas8.jpg);" id="amazonas8" class="card-large">
+            </div>
         </div>
 
         <div class=row>
-            <div style="background-image: url(../images/amazonas11.jpg);"></div>
+            <div style="background-image: url(../images/amazonas11.jpg);" id="amazonas11" class="card-large">
+            </div>
         </div>
 
         <div class=row>
@@ -44,18 +48,18 @@
         </div>
 
         <div class=row>
-            <div style="background-image: url(../images/amazonas12.jpg);"></div>
+            <div style="background-image: url(../images/amazonas12.jpg);" id="amazonas12" class="card-large">
+            </div>
         </div>
-
-        <!-- <p>
-            <img src="../images/logos4-e1614154351421.png" alt="" style="width: 200px;">
-        </p> -->
-
-        <!-- logo + text
-
-        pagination -->
-
     </div>
+
+    <p>
+        <img src="../images/logos4-e1614154351421.png" alt="" style="width: 200px;">
+    </p>
+
+    logo + text
+
+    pagination
 </div>
 
 <?php include '../includes/footer.php'; ?>

@@ -41,12 +41,15 @@
       color: #7a7a7a;
     }
   }
+  .row {
+    margin-bottom: 30px;
+  }
   .card {
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
     margin: 0;
-    height: 658px;
+    height: 550px;
     &:nth-child(1) {
       margin-right: 20px;
     }
@@ -54,10 +57,33 @@
       margin-left: 20px;
     }
   }
+  .card-large {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
   #amazonas1_bis {
     height: 1060px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  #amazonas4 {
+    background-position: -159px 0px;
+  }
+  #amazonas6 {
+    background-position: -35px -143px;
+    background-size: 110% auto;
+  }
+  #amazonas8 {
+    height: 759px;
+  }
+  #amazonas11 {
+    height: 550px;
+  }
+  #amazonas12 {
+    background-position: center center;
+    height: 680px;
   }
 }
