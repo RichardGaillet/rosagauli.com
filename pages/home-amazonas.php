@@ -52,9 +52,11 @@
             </div>
         </div>
 
-        <?php include '../includes/logo.php'; ?>
+        <?php 
+            include '../includes/logo.php';
 
-        <?php include '../includes/pagination.php'; ?>
+            includePagination('/', '/pages/home-flowers.php');
+        ?>
     </div>
 
 

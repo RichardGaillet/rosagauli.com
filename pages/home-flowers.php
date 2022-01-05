@@ -1,7 +1,13 @@
 <?php include '../includes/header.php'; ?>
 
-<div id="home_banner"></div>
+<div class="patterns">
+    <h1>Home Flowers</h1>
 
-<h1>Home Flowers</h1>
+    <?php 
+        include '../includes/logo.php';
+    
+        includePagination('/pages/home-amazonas.php', '/pages/home-tejidos.php');
+    ?>
+</div>
 
 <?php include '../includes/footer.php'; ?>
