@@ -51,15 +51,13 @@
             <div style="background-image: url(../images/amazonas12.jpg);" id="amazonas12" class="card-large">
             </div>
         </div>
+
+        <?php include '../includes/logo.php'; ?>
+
+        <?php include '../includes/pagination.php'; ?>
     </div>
 
-    <p>
-        <img src="../images/logos4-e1614154351421.png" alt="" style="width: 200px;">
-    </p>
 
-    logo + text
-
-    pagination
 </div>
 
 <?php include '../includes/footer.php'; ?>
