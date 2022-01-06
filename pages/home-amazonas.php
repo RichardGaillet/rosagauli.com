@@ -54,12 +54,9 @@
 
         <?php 
             include '../includes/logo.php';
-
             includePagination('/', '/pages/home-flowers.php');
         ?>
     </div>
-
-
 </div>
 
 <?php include '../includes/footer.php'; ?>
