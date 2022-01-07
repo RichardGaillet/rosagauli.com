@@ -62,12 +62,19 @@
     background-size: cover;
     width: 100%;
   }
-  #amazonas1_bis {
+  #amazonas1_bis,
+  #flowers14 {
     height: 1060px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  #amazonas2 {
+    max-width: 625px;
+    min-height: 745px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
   }
   #amazonas4 {
     background-position: -159px 0px;
@@ -88,10 +95,64 @@
   }
   #flowers1 {
     height: 535px;
+    background-position: center center;
   }
   #flowers2,
   #flowers5 {
     height: 215px;
+  }
+  #flowers3 {
+    background-position: -10px -10px;
+    background-repeat: no-repeat;
+    background-size: 110% auto;
+  }
+  #flowers4 {
+    background-position: center center;
+  }
+  #flowers6,
+  #flowers7 {
+    height: 500px;
+  }
+  #flowers6 {
+    width: 60%;
+    background-position: -155px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+  }
+  #flowers7 {
+    width: 40%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-left: 20px;
+  }
+  #flowers8 {
+    background-position: -8px -43px;
+    background-size: 108% auto;
+  }
+  #flowers9 {
+    background-position: bottom center;
+  }
+  #flowers10 {
+    background-position: 0px -43px;
+  }
+  #flowers11 {
+    background-position: bottom center;
+  }
+  #flowers12 {
+    max-width: 625px;
+    min-height: 750px;
+  }
+  #flowers14 {
+    background-position: center center;
+  }
+  #flowers15 {
+    background-position: 2px -141px;
+    background-size: 107% auto;
+  }
+  #flowers13 {
+    background-position: -205px 0px;
   }
   .logo {
     display: flex;

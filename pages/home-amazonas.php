@@ -17,8 +17,7 @@
 
         <div class=row>
             <div style="background-image: url(../images/amazonas1_bis.jpg);" id="amazonas1_bis">
-                <img src="../images/amazonas2.jpg" alt="amazonas2"
-                    style="max-width: 625px; min-height: 745px; -webkit-transform: scaleX(-1); transform: scaleX(-1);">
+                <img src="../images/amazonas2.jpg" alt="amazonas2" id="amazonas2">
             </div>
         </div>
 

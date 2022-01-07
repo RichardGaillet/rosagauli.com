@@ -32,8 +32,8 @@
         </div>
 
         <div class=row>
-            <div style="background-image: url(../images/flowers3.jpg);" class="card"></div>
-            <div style="background-image: url(../images/flowers4.png);" class="card"></div>
+            <div style="background-image: url(../images/flowers3.jpg);" id="flowers3" class="card"></div>
+            <div style="background-image: url(../images/flowers4.png);" id="flowers4" class="card"></div>
         </div>
 
         <div class="title">
@@ -59,6 +59,43 @@
         <div class=row>
             <div style="background-image: url(../images/flowers3.jpg);"></div>
             <div style="background-image: url(../images/flowers4.png);"></div>
+        </div>
+
+        <div class=row>
+            <div style="background-image: url(../images/flowers6.jpg);" id="flowers6"></div>
+            <div style="background-image: url(../images/flowers7.jpg);" id="flowers7"></div>
+        </div>
+
+        <div class=row>
+            <div style="background-image: url(../images/flowers8.jpg);" id="flowers8" class="card"></div>
+            <div style="background-image: url(../images/flowers9.jpg);" id="flowers9" class="card"></div>
+        </div>
+
+        <div class=row>
+            <div style="background-image: url(../images/flowers10.jpg);" id="flowers10" class="card"></div>
+            <div style="background-image: url(../images/flowers11.jpg);" id="flowers11" class="card"></div>
+        </div>
+
+        <div class="title">
+            <h2>Trazos libres</h2>
+            <h1>Flowers</h1>
+            <h2>Japonesas</h2>
+        </div>
+        <div class="description">
+            <p>Pensar en libertad y dejarte llevar por la acuarela, con pinceladas llenas de naturalidad, dan inicio a
+                esta inspiración donde me sentí muy confortable porque conectaron con mi esencia, llenando mi universo
+                de más fluidez.</p>
+        </div>
+
+        <div class=row>
+            <div style="background-image: url(../images/flowers14.png);" id="flowers14">
+                <img src="../images/flowers12.jpg" alt="flowers12" id="flowers12">
+            </div>
+        </div>
+
+        <div class=row>
+            <div style="background-image: url(../images/flowers15.jpg);" id="flowers15" class="card"></div>
+            <div style="background-image: url(../images/flowers13.jpg);" id="flowers13" class="card"></div>
         </div>
 
         <?php 
