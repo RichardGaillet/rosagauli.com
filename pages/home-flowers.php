@@ -57,11 +57,6 @@
         </div>
 
         <div class=row>
-            <div style="background-image: url(../images/flowers3.jpg);"></div>
-            <div style="background-image: url(../images/flowers4.png);"></div>
-        </div>
-
-        <div class=row>
             <div style="background-image: url(../images/flowers6.jpg);" id="flowers6"></div>
             <div style="background-image: url(../images/flowers7.jpg);" id="flowers7"></div>
         </div>

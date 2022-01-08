@@ -1,14 +1,47 @@
 <?php include '../includes/header.php'; ?>
 
 <div class="patterns">
-    <h1>Home Tejidos</h1>
+    <div class="container">
+        <div class="title">
+            <h2>Juego de</h2>
+            <h1>Tejidos</h1>
+            <h2>Y color</h2>
+        </div>
+        <div class="description">
+            <p>Llegaron a mi repitiéndome la palabra “juego”, sastrería, accesorios y hogar divirtiéndose con el color,
+                funcionando los dos tejidos más clásicos de la historia “Pata de Gallo y Escocés”.</p>
+        </div>
 
-    <?php 
-    include '../includes/logo.php';
+        <div class=row>
+            <div style="background-image: url(../images/color1.jpg);" id="color1" class="card-large">
+            </div>
+        </div>
 
-    includePagination('/pages/home-flowers.php', '#');
-?>
+        <div class=row>
+            <div style="background-image: url(../images/color2.jpg);" id="color2" class="card"></div>
+            <div style="background-image: url(../images/color3.jpg);" id="color3" class="card"></div>
+        </div>
+
+        <div class=row>
+            <div style="background-image: url(../images/color4.jpg);" id="color4" class="card-large">
+            </div>
+        </div>
+
+        <div class=row>
+            <div style="background-image: url(../images/color5.jpg);" class="card"></div>
+            <div style="background-image: url(../images/color6.jpg);" id="color6" class="card"></div>
+        </div>
+
+        <div class=row>
+            <div style="background-image: url(../images/color7.jpg);" id="color7" class="card-large">
+            </div>
+        </div>
+
+        <?php 
+            include '../includes/logo.php';
+            includePagination('/pages/home-flowers.php', '/pages/home-naturaleza.php');
+        ?>
+    </div>
 </div>
-
 
 <?php include '../includes/footer.php'; ?>
