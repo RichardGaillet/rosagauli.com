@@ -3,9 +3,9 @@
 <div class="patterns">
     <div class="container">
         <div class="title">
-            <h2>Perú</h2>
-            <h1>Amazonas</h1>
-            <h2>Barcelona</h2>
+            <h1>Perú</br>
+            <span>Amazonas</span></br>
+            Barcelona</h1>
         </div>
         <div class="description">
             <p>Mi amor por Barcelona, el modernismo y la naturaleza, fusionado con <strong>“los trazos fluidos y
