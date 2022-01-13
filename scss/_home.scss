@@ -76,6 +76,11 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 70%;
+    h2 {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
   }
   .card-title {
     color: #54595f;
