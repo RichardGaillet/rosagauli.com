@@ -3,9 +3,10 @@
 <div class="patterns">
     <div class="container">
         <div class="title">
-            <h2>Juego de</h2>
-            <h1>Tejidos</h1>
-            <h2>Y color</h2>
+            <h1>Juego de</br>
+                <span>Tejidos</span></br>
+                Y color
+            </h1>
         </div>
         <div class="description">
             <p>Llegaron a mi repitiéndome la palabra “juego”, sastrería, accesorios y hogar divirtiéndose con el color,

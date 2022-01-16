@@ -3,9 +3,10 @@
 <div class="patterns">
     <div class="container">
         <div class="title">
-            <h2>Bondadosa</h2>
-            <h1>Naturaleza</h1>
-            <h2>Cuarentena</h2>
+            <h1>Bondadosa</br>
+                <span>Naturaleza</span></br>
+                Cuarentena
+            </h1>
         </div>
         <div class="description">
             <p>Momentos oscuros… muy oscuros!! Y momentos de claridad también. Pero la naturaleza siempre estuvo y está

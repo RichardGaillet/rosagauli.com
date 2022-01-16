@@ -3,9 +3,10 @@
 <div class="patterns">
     <div class="container">
         <div class="title">
-            <h2>Perú</h2>
-            <h1>Cantuta</h1>
-            <h2>Flower</h2>
+            <h1>Perú</br>
+                <span>Cantuta</span></br>
+                Flower
+            </h1>
         </div>
         <div class="description">
             <p>Inspirada en la flor sagrada de los Incas <strong>“La Cantuta”</strong>, y en todos los ritos dónde
