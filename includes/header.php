@@ -13,7 +13,7 @@
     <title>Rosa Gaulí – Diseñadora & Artista Textil</title>
 </head>
 
-<body>
+<body <?php getHomePageClass(); ?>>
     <header>
         <nav id="nav_left">
             <a href="/"><img src="/images/logo_header.png" alt="Logo Rosa Gaulí" id="logo_rosa_gauli" /></a>

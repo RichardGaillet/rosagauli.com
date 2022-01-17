@@ -1,6 +1,14 @@
 header {
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.71);
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.71),
+      rgba(255, 255, 255, 0.71)
+    ),
+    url("/images/home1_landscape.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 500;
   display: flex;
   padding: 7px 20px 5px;
   position: fixed;
@@ -14,6 +22,11 @@ header {
   ul {
     display: none;
   }
+}
+
+.home header {
+  background-image: none;
+  background-color: rgba(255, 255, 255, 0.71);
 }
 
 #logo_rosa_gauli {
