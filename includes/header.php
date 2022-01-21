@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="/style.css" />
     <title>Rosa Gaulí – Diseñadora & Artista Textil</title>
+    <meta name="description" content="Nuestras colecciones frescas y chic de suéteres, chalecos, cárdigans, chalecos largos y sudaderas de mujer de la colección Rosa Gaulí.">
 </head>
 
 <body <?php getHomePageClass(); ?>>
