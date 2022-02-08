@@ -24,7 +24,8 @@
       "subTitle1" => "NIÑOS Perú",
       "subTitle2" => "Barcelona",
       "description" => "Tatuajes libres y fluidos",
-      "bannerImg" => "images/home3.png",
+			"bannerImg" => "images/home3.png",
+			"tet" => "etetette",
       "slides" => array("images/home2.png", "images/amazonas4_slide.jpg")
     ),
     array(
