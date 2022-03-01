@@ -1,0 +1,11 @@
+#home_banner {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("/images/home1_landscape.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}

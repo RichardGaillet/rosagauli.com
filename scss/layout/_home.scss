@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: white;
+}
+
+.author {
+  padding: 20px 0px 50px 0px;
+  text-align: center;
+  img {
+    width: 170px;
+  }
+  h1 {
+    color: #54595f;
+    font-family: "FuturaLTPro-Book", Sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 0;
+  }
+}
+
+#container {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  a {
+    text-decoration: none;
+  }
+}
